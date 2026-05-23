@@ -1,0 +1,20 @@
+{
+  "name": "@websonica/cantieri-core",
+  "version": "0.1.0",
+  "description": "Logica condivisa del network ItaliaProgettisti: geografia province IT, tassonomia categorie cantieri/settori, tipi.",
+  "license": "UNLICENSED",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist", "src"],
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vitest": "^2.0.0"
+  }
+}
