@@ -17,3 +17,4 @@ Object.defineProperty(exports, "__esModule", { value: true });
 __exportStar(require("./geo"), exports);
 __exportStar(require("./taxonomy"), exports);
 __exportStar(require("./types"), exports);
+__exportStar(require("./bandi-taxonomy"), exports);
