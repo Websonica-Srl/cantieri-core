@@ -18,3 +18,7 @@ __exportStar(require("./geo"), exports);
 __exportStar(require("./taxonomy"), exports);
 __exportStar(require("./types"), exports);
 __exportStar(require("./bandi-taxonomy"), exports);
+__exportStar(require("./scheda-vocab"), exports);
+__exportStar(require("./scheda"), exports);
+__exportStar(require("./gate"), exports);
+__exportStar(require("./scheda-jsonld"), exports);
